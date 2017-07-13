@@ -1,0 +1,2 @@
+set(odewithcmake_MESSAGE_FILES "")
+set(odewithcmake_SERVICE_FILES "")

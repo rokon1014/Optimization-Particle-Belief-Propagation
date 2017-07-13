@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Utils/Include/MathUtils.h
+math.h
+-
+stdlib.h
+-
+limits
+-
+float.h
+-
+
+/home/spacemaster09/makewithode/unit.cpp
+ros/ros.h
+/home/spacemaster09/makewithode/ros/ros.h
+std_msgs/String.h
+/home/spacemaster09/makewithode/std_msgs/String.h
+math.h
+-
+MathUtils.h
+/home/spacemaster09/makewithode/MathUtils.h
+ControlPBP.h
+/home/spacemaster09/makewithode/ControlPBP.h
+UnityOde.h
+/home/spacemaster09/makewithode/UnityOde.h
+ode/ode.h
+-
+stdio.h
+-
+cstdio
+-
+iostream
+-
+
